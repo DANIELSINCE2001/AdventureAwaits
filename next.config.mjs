@@ -1,7 +1,6 @@
 const nextConfig = {
   reactStrictMode: true,
-  basePath: 'AdventureAwaits', // Replace with your repository name
-  assetPrefix: 'AdventureAwaits', // Replace with your repository name
+  // basePath: '/TourismTravels', // Uncomment this if deploying to GitHub Pages
 };
 
 export default nextConfig;
