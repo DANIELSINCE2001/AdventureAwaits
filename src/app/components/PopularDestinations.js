@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
+
 const PopularDestinations = () => {
   const destinations = [
     {
@@ -104,7 +105,7 @@ const PopularDestinations = () => {
             <li key={destination.id}>
               <div className="popular-card">
                 <figure className="card-img">
-                  <Image
+                  <img
                     src={destination.image}
                     alt={destination.name}
                     loading="lazy"

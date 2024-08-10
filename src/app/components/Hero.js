@@ -3,7 +3,7 @@ import Image from 'next/image'; // Import Image from next/image htmlFor optimize
 
 const Hero = () => {
   return (
-    <section className="hero" id="home">
+    <section className="hero" id="home" >
         <div className="container">
 
           <h2 className="h1 hero-title">Journey to explore world</h2>
