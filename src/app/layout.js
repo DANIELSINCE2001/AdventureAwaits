@@ -1,5 +1,5 @@
 // src/app/layout.js
-import "../../styles/global.css";
+import '../styles/globals.css'; 
 import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
