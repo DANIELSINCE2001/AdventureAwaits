@@ -1,16 +1,22 @@
 {
-  "name": "adventure_awaits",
-  "version": "0.1.0",
-  "private": true,
+ 
+
+  "name": "react-travel",
+  "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "predeploy": "next build",
+    "deploy": "gh-pages -d out",
+    "start": "next start"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-travel": "file:"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
